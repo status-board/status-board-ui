@@ -26,7 +26,12 @@
     "verify:check": "depcheck",
     "verify:david": "david",
     "verify:npmvet": "npmvet --renderer ci --strict",
-    "verify:nsp": "nsp check --output summary"
+    "verify:nsp": "nsp check --output summary",
+    "concat": "node ./scripts/concat.js",
+    "copy": "node ./scripts/copy.js",
+    "stylus": "mkdir lib/stylesheets && yarn stylus:application && yarn stylus:log",
+    "stylus:application": "stylus ./src/stylesheets/application.styl -o ./lib/stylesheets/application.css --include ./node_modules/nib/lib",
+    "stylus:log": "stylus ./src/stylesheets/log-viewer.styl -o ./lib/stylesheets/log-viewer.css --include ./node_modules/nib/lib"
   },
   "devDependencies": {
     "@commitlint/cli": "^5.2.8",
@@ -40,9 +45,11 @@
     "jest": "22.0.4",
     "lint-staged": "6.0.0",
     "ncp": "^2.0.0",
+    "nib": "^1.1.2",
     "opt-cli": "1.6.0",
     "rimraf": "2.6.2",
     "semantic-release": "11.0.2",
+    "stylus": "^0.54.5",
     "validate-commit-msg": "2.14.0"
   },
   "config": {

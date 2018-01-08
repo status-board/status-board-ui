@@ -63,3 +63,5 @@ typings/
 # macOS
 .DS_Store
 
+# Build
+lib
