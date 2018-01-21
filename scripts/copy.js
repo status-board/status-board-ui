@@ -5,6 +5,7 @@ const libDirectory = './lib';
 
 ncp.limit = 16;
 
+// Callback
 function myCallback(err) {
   if (err) {
     return console.error(err);
