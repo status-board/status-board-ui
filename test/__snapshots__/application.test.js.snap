@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Test 1`] = `
+Object {
+  "application": "",
+  "default": [Circular],
+  "log": "",
+  "vendor": "",
+}
+`;

@@ -1,5 +1,7 @@
+const index = require('../index');
+
 describe('Test', () => {
   test('Test', () => {
-    expect('foo').toMatch('foo');
+    expect(index).toMatchSnapshot();
   });
 });
