@@ -37,7 +37,7 @@
   "devDependencies": {
     "@commitlint/cli": "6.1.0",
     "@commitlint/config-conventional": "6.1.0",
-    "all-contributors-cli": "4.10.1",
+    "all-contributors-cli": "4.10.2",
     "codecov": "^3.0.0",
     "commitizen": "2.9.6",
     "concat": "1.0.3",
