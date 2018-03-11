@@ -4310,9 +4310,9 @@ retry@^0.10.0:
   version "0.10.1"
   resolved "https://registry.yarnpkg.com/retry/-/retry-0.10.1.tgz#e76388d217992c252750241d3d3956fed98d8ff4"
 
-rickshaw@1.6.4:
-  version "1.6.4"
-  resolved "https://registry.yarnpkg.com/rickshaw/-/rickshaw-1.6.4.tgz#e5a979564c5ca22cac98d5e86845481bcbf6d5bc"
+rickshaw@1.6.5:
+  version "1.6.5"
+  resolved "https://registry.yarnpkg.com/rickshaw/-/rickshaw-1.6.5.tgz#dcea9438c3d48dd2dc58cb05b4e9d9ddeedd4d9d"
   dependencies:
     d3 "^3.5.16"
 
