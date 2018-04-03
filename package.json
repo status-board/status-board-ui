@@ -45,7 +45,7 @@
     "cz-conventional-changelog": "2.1.0",
     "husky": "0.14.3",
     "jest": "22.4.3",
-    "lint-staged": "7.0.2",
+    "lint-staged": "7.0.3",
     "ncp": "2.0.0",
     "nib": "1.1.2",
     "opt-cli": "1.6.0",
