@@ -35,7 +35,7 @@
     "stylus:log": "stylus ./src/stylesheets/log-viewer.styl -o ./lib/stylesheets/log-viewer.css --include ./node_modules/nib/lib"
   },
   "devDependencies": {
-    "@commitlint/cli": "7.0.0",
+    "@commitlint/cli": "7.1.0",
     "@commitlint/config-conventional": "7.0.1",
     "all-contributors-cli": "5.4.0",
     "codecov": "^3.0.0",
