@@ -48,7 +48,7 @@
     "nib": "1.1.2",
     "opt-cli": "1.6.0",
     "rimraf": "2.6.3",
-    "semantic-release": "15.13.3",
+    "semantic-release": "15.13.12",
     "stylus": "0.54.5",
     "validate-commit-msg": "2.14.0"
   },
