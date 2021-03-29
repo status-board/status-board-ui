@@ -41,7 +41,7 @@
     "concat": "1.0.3",
     "coveralls": "3.0.6",
     "cz-conventional-changelog": "3.0.2",
-    "husky": "3.0.5",
+    "husky": "6.0.0",
     "jest": "24.9.0",
     "lint-staged": "9.2.5",
     "ncp": "2.0.0",
